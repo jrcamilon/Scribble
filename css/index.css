@@ -1,0 +1,44 @@
+/*
+ * index.css
+ * put your css here
+ */
+
+/** {*/
+    /*box-sizing:             border-box;*/
+/*}*/
+
+body
+{
+    font-family: 	verdana,helvetica,arial,sans-serif;
+}
+#drawingCanvas {
+    border: 		1px solid #c3c3c3;
+    margin-right: 	auto;
+    margin-left: 	auto;
+    display: 		block;
+}
+#title {
+    text-align: 	center;
+}
+#debugDiv {
+    color: 			#aaaaaa;
+    width: 			500px;
+    margin-right: 	auto;
+    margin-left: 	auto;
+    text-align: 	center;
+}
+.buttonDiv {
+    width: 			500px;
+    margin-right: 	auto;
+    margin-left: 	auto;
+    padding-bottom: 10px;
+}
+.buttonDiv button, select {
+    width: 			95px;
+    height: 		35px;
+    font-size: 		20px;
+    vertical-align: middle;
+}
+#black 	{ background-color: #000000; }
+#maroon { background-color: #8C1D40; }
+#gold 	{ background-color: #FFC627; }
